@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.4/font/bootstrap-icons.min.css">
+    <title>Carrinho-Loja da Nike</title>
+</head>
+<body>
+    <header>
+        <img src="/LojaDeTênis/pngegg.png" alt="Logo da loja" class="logo">
+ <div class="pesquisa">
+    <input type="search" placeholder="Pesquise..." id="search">
+   <div class="search-icons">
+ <i class="bi bi-search" id="lupa"></i>
+ <div class="fechar-search">X</div>
+ </div>
+</div>
+<a href="/LojaDeTênis/LojaDaNike.html">
+    <i class="bi bi-house-door"></i>
+    </a>
+    <i class="bi bi-heart" id="heart"></i>
+    <a href="/LojaDeTênis/CarrinhoLoja.html">
+    <i class="bi bi-cart2" id="icon-cart">
+    </i> </a>
+<div class="Conta">
+<i class="bi bi-person-circle"></i>
+<Span class="entrar-conta">Entrar</Span>
+<li class="criar-logar">
+<a href=""><span>Entrar</span></a>
+<br>
+<a href=""><span>Criar Conta</span>   </a>
+</li>
+</li>
+</div>
+    </header>
+    <h2>Seu carrinho</h2>
+    <div class="h3">
+    <h3 class="h3-product">Produto</h3>
+    <div class="tabelas">
+    <h3>Preço</h3>
+    <h3>Quantidade</h3>
+    <h3>Total</h3>
+    <i class="bi bi-dash" id="remove-product"></i>
+</div>
+</div>
+    <hr>
+    <div class="cart-info">
+    <div class="product-info">
+        <img src="https://image-raw.reversible.com/raw_images/00957834a5dc48674a853b99b1a6736e4a9c9943f08ebeefa79b32b7b9c373d0" alt="" class="flyknit">
+    <div class="info">
+    <span class="name">AIR FORCE 1 MID X OFF-WHITE</span>
+    <br>
+    <span class="category">Categoria</span>
+    </div>
+    <span class="price">R$1439,99</span>
+    <div class="quantidade">
+        <button>
+            <i class="bi bi-dash"></i>
+        </button>
+            <span>2</span>
+            <button>
+            <i class="bi bi-plus"></i>  
+        </button>           
+    </div>
+        <span>R$2000</span>
+        <button class="remove-product">
+            <i class="bi bi-x" id="X"></i>
+            </button>
+    </div>
+        <hr>
+    <div class="product-info">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="" class="flyknit">
+    <div class="info">
+    <span>Free RN Flyknit</span>
+    <br>
+    <span>Categoria</span>
+    </div>
+    <span>R$539,99</span>
+    <div class="quantidade">
+        <button>
+            <i class="bi bi-dash"></i>
+        </button>
+            <span>2</span>
+            <button>
+            <i class="bi bi-plus"></i>  
+        </button>           
+    </div>
+        <span>R$2000</span>
+        <button class="remove-product">
+            <i class="bi bi-x" id="X"></i>
+            </button>
+    </div>
+        <hr>
+        <div class="product-info">
+            <img src="https://media.gq.com.mx/photos/661d52dcee43e544bdcd1bd4/master/w_1600%2Cc_limit/018-su24-pegasus41.jpeg" alt="" class="flyknit">
+    <div class="info">
+    <span>Pegasus 41 Blueprint</span>
+    <br>
+    <span>Categoria</span>
+</div>
+    <span>R$899,99</span>
+    <div class="quantidade">
+        <button>
+            <i class="bi bi-dash"></i>
+        </button>
+            <span>2</span>
+            <button>
+            <i class="bi bi-plus"></i>  
+        </button>             
+    </div>
+        <span>R$2000</span>
+        <button class="remove-product">
+            <i class="bi bi-x" id="X"></i>
+            </button>
+    </div>
+        <hr>
+        <div class="product-info">
+            <img src="https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/h_363,c_limit/e886ec6d-2120-4bc7-8074-a219f041fe4d/los-nike-zoom-fly-6-redise%C3%B1ados-son-la-opci%C3%B3n-perfecta-para-los-entrenamientos-y-las-competencias.png" alt="" class="flyknit">  
+    <div class="info">
+    <span>Zoom Fly</span>
+    <br>
+    <span>Categoria</span>
+</div>
+    <span>R$1049,99</span>
+    <div class="quantidade">
+        <button>
+        <i class="bi bi-dash"></i>
+    </button>
+        <span>2</span>
+        <button>
+        <i class="bi bi-plus"></i>  
+    </button>      
+    </div>
+        <span>R$2000</span>
+        <button class="remove-product">
+            <i class="bi bi-x" id="X"></i>
+            </button>
+    </div>
+        <div class="Resumo-compra">
+            <h3>Resumo da compra</h3>
+            <hr class="hr-resume">
+            <div class="sub-total">
+            <span>Sub-total</span>
+            <span>R$5000</span>
+        </div>
+            <div class="frete">
+            <span>Frete</span>
+            <span>Gratuito</span>
+            </div>
+            <div class="desconto">
+            <a href="" class="cupom-desconto">Adicionar cupom de desconto</a>
+            <i class="bi bi-arrow-right-short" id="flecha-cupom"></i>
+        </div>
+            <div class="total-div">
+            <span>Total</span>
+            <span>R$5000</span>
+            </div>
+        <button class="Finalizar-compra">Finalizar compra</button>
+    </div>
+    </div>
+    <footer>
+        <p>Loja da Nike &copy; 2025 Desenvolvido por João Gabriel</p>
+    </footer>
+    </html>
+<style>
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+html{
+max-width: 100vw;
+overflow: hidden;
+}
+footer{
+position: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #333;
+color: #fff;
+height: 15vh;
+width: 100%;
+bottom: 0;
+font-size: 26px;
+}
+  .logo{
+  width: 5%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  left: 5%;
+  }
+
+ header{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 2%; 
+ box-shadow: 0px 2px 5px 1px gray;
+ padding:20px;
+ background-color: black;
+ color: white;
+ margin-bottom: 30px;
+ }
+ a{
+text-decoration: none;
+color: white;
+ }
+ #icon-cart:hover{
+    transform: scale(1.0);
+    }   
+ .entrar-conta{
+padding: 5px;
+font-size: 26px;
+ }
+ .criar-logar{
+display: none;
+ }
+ .criar-logar span{
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+ }
+ .Conta:hover{
+    .criar-logar{
+    display: block;
+    background-color: rgba(128, 128, 128, 0.267);
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top:7%;
+    padding: 5px;
+    }
+ }
+ #heart:hover{
+ color: red;
+ cursor: pointer;
+ }
+ input{
+    margin: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 15vw;
+  }
+    input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+    -webkit-appearance: none;
+  }
+  I{
+    cursor: pointer;
+    font-size: 26px;
+    }
+  .pesquisa{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  border-radius: 24px;
+  background-color: white;
+  gap: 8px;
+  margin-right: 8vw;
+  margin-left: 17vw;
+  }
+  .pesquisa:focus-within{
+    box-shadow: 0 0 15px blue;
+  }
+  .pesquisa input{
+      border: none;
+      outline: none;
+      background-color: transparent;
+      color: black;
+  }
+#lupa{
+position: relative;
+top: 9%;
+padding: 8px;
+border-radius: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: gray;
+min-height: 16px;
+min-width: 16px;
+transition: opacity 0.25s ease, transform 0.5s;
+}
+#lupa:hover{
+transform: scale(1.0);
+background-color: rgb(163, 163, 163);
+}
+.fechar-search {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer;
+  transform: translateX(-200%);
+  transition: opacity 0.25s ease, transform 0.5s ;
+  color:blue;
+  font-size:30px;
+  top: 2.5vh;
+}
+#search{
+  transition: all 0.5s ease;
+  &:focus {
+    outline: none;
+    + .search-icons {
+      .fechar-search {
+        opacity: 1;
+        transform: translateX(0);
+        visibility: visible;
+      }
+      #lupa {
+        opacity: 0;
+        transform: translateX(200%);
+      }
+    }
+  }
+}
+h2{
+text-align: center;
+font-size: 40px;
+margin-bottom: 30px;
+}
+hr{
+max-width: 100vw;
+margin-right: 20vw;
+}
+.h3{
+display: flex;
+gap: 8vw;
+font-size: 18px;
+}
+.h3-product{
+    margin-right: 30vw;
+    margin-left: 10px;
+}
+.product-info{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 8vw;
+max-width: 80vw;
+}
+.info{
+margin: auto;
+margin-left:-8vw ;
+}
+.quantidade{
+    background: #eee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 100px;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 30px;
+    border: none;
+}.quantidade span{
+margin: 0 10px;
+}
+.quantidade button{
+border: none;
+}
+img{
+width: 8vw;
+height: 13vh;
+min-width: 8vw;
+overflow: hidden;
+padding: 10px;
+border-radius: 25px;
+}
+.cart-info span{
+display: flex;
+align-items: center;
+}
+.Resumo-compra{
+border: solid;
+position: absolute;
+top: 40vh;
+right: 0;
+margin-right: 2vw;
+text-align: center;
+padding: 5px;
+width: 12vw;
+}
+.Resumo-compra span{
+display: block;
+}
+.Finalizar-compra{
+background-color: rgb(0, 0, 0);
+color: white;
+position: absolute;
+margin-top:20px;
+padding: 10px;
+width: 100%;
+right: 0vw;
+font-size: 18px;
+border: none;
+}
+.Finalizar-compra:hover{
+cursor: pointer;
+background-color: rgb(34, 34, 34);
+transition: 0.3 ease;
+}
+.hr-resume{
+width: 100%;
+}
+.desconto{
+color: rgb(89, 221, 89);
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.cupom-desconto{
+color: rgb(89, 221, 89);
+}
+#flecha-cupom{
+font-size: 16px;
+}
+.total-div{
+background-color: rgb(173, 173, 173);
+margin-top: 20px;
+display: flex;
+gap: 5vw;
+padding: 10px;
+font-size: 20px;
+}
+.sub-total{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40%;
+font-size: 18px;
+margin-bottom: 10px;   
+}
+.frete{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50%;
+font-size: 18px;
+margin-bottom: 10px;
+}
+.tabelas{
+display: flex;
+gap: 8vw;
+position: relative;
+right: 5vw;
+font-size: 18px;
+}
+.remove-product{
+    background: #eee;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 6vw;
+}
+#remove-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#X{
+display: flex;
+justify-content: center;
+}
+</style>
+<script>
+
+</script>
